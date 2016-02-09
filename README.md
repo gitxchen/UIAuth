@@ -8,3 +8,6 @@ This repository contains all the code and data used to evaluate user interface i
 * inc_users_gda/knn/svm - contains code for GDA, 3NN, SVM based identification accuracy when the number of users is increased from 10 to 42
 * one_class_svm - contains code for one class SVM where unknown imposters were assumed, the value of threshold was varied from 0 to 42
 * svdd - contains code for SVDD where unknown imposters were assumed, the value of threshold was increased from 0 to 40
+* two_class_svm - contains code for two class SVM when unknown imposters were assumed and the value of the threshold was changed from 0 to 40
+* maps_src - contains GDA-based identification and SVM-based authentication/identification code
+* feature_extraction - contains feature extraction code. Users for whom data is to be extracted are setup in $USERS in datacollect.sh. This script also assumes data will be present in $HOME/new_logs
